@@ -1,0 +1,51 @@
+[
+  {
+    "Id": 1,
+    "CurrentMove": [
+      "1",
+      "1"
+    ]
+  },
+  {
+    "Id": 2,
+    "CurrentMove": [
+      "2",
+      "2"
+    ]
+  },
+  {
+    "Id": 1,
+    "CurrentMove": [
+      "0",
+      "0"
+    ]
+  },
+  {
+    "Id": 2,
+    "CurrentMove": [
+      "0",
+      "2"
+    ]
+  },
+  {
+    "Id": 1,
+    "CurrentMove": [
+      "1",
+      "0"
+    ]
+  },
+  {
+    "Id": 2,
+    "CurrentMove": [
+      "2",
+      "1"
+    ]
+  },
+  {
+    "Id": 1,
+    "CurrentMove": [
+      "2",
+      "0"
+    ]
+  }
+]

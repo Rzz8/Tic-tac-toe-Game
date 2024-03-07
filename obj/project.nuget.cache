@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "tQLab+FFYuQin8uXZdvwzYd29w8aYDw2hUvpcuYEUNtG5+YybqBNr2XTg+ia1hJ3jW3RJOU5fAE9VeMCeIB4Rw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\zhong\\OneDrive\\Desktop\\uq onedrive files\\0. QUT courses\\3. IFQ 563 Object oriented design\\Assignment 2\\Final submissions\\Tic tac toe game\\TicTacToe.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zhong\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.24\\microsoft.windowsdesktop.app.ref.6.0.24.nupkg.sha512",
+    "C:\\Users\\zhong\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.24\\microsoft.netcore.app.ref.6.0.24.nupkg.sha512",
+    "C:\\Users\\zhong\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.24\\microsoft.aspnetcore.app.ref.6.0.24.nupkg.sha512",
+    "C:\\Users\\zhong\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.24\\microsoft.netcore.app.host.win-x64.6.0.24.nupkg.sha512"
+  ],
+  "logs": []
+}
