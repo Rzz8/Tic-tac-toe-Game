@@ -31,3 +31,5 @@ In this project, I created and documented an object-oriented design for this gam
 
 **2. Class Responsibility Collaborator (CRC) analysis** 
 
+<img src="2. Class diagram.svg" alt="SVG Image" width="800" height="1000">
+
