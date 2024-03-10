@@ -11,9 +11,42 @@ In this project, I created and documented an object-oriented design for this gam
 4. Make random moves made by the computer player
 5. Make the game play from start to finish
 6. Make the game savable	
-7. Make moves undoable	
+7. Make moves undoable
 
-**1. Design principles and patterns**
+**1. Execution instructions**
+
+1.	Execute the program in Visual Studio or VS Code.
+   
+3.	After executing the program, the user is greeted with a welcome message to the tic-tac-toe game.
+   
+5.	The user is prompted to selected a game mode: 1. Player vs. computer. 2. Player vs. player. The user needs to enter a valid number (1 or 2) to play the game. For game mode 1, a computer opponent is created. For game mode 2, a human opponent is created.
+   
+7.	Player 1 is automatically assigned with the “X” mark in the game. Player 2 (whether it is a computer or human player) is assigned to the “O” mark.
+   
+9.	The game board is displayed. For a tic-tac-toe game, there are 3 rows and 3 columns.
+    
+11.	Underneath the game board, the program prompts the player to input their next move. It's important to note that indexing starts from 0 and ends at 2. For instance, entering '1 1' indicates placing a move in the second row and second column. The program requires the user to input precisely two valid numbers to execute a valid move.
+    
+13.	After the user makes a move, the program switches to player 2. In the case of a player versus computer game mode, the computer will randomly select a move on the board. However, if it's a player versus player mode, the program prompts player 2 to make their move.
+    
+15.	After each move, the program checks if the game has concluded. It examines two endgame conditions: 1. Whether a winning condition has been met. 2. Whether the game board is completely filled. To determine a winning condition, the program scrutinizes the board horizontally, vertically, and diagonally. In terms of board completeness, the program verifies if there are any remaining empty spaces.
+    
+17.	The program will keep toggling between players until an endgame condition is met. Upon meeting an endgame condition, a congratulatory message will be displayed for the winner. In the event of a draw, a message indicating a draw game will be shown.
+    
+19.	The program saves the player ID and each move to a local file named “Game Record.json”. However, the current version of the program lacks the capability to load the file for replaying the game.
+    
+21.	After the game concludes, the user is prompted to play again by entering '1', or they can choose to exit the game by entering any other key.
+
+**2. Class Responsibility Collaborator (CRC) analysis** 
+
+<img src="CRC analysis 1.png" alt="CRC analysis" width="600" height="1000">
+<img src="CRC analysis 2.png" alt="CRC analysis2" width="600" height="300">
+
+<img src="2. Class diagram.svg" alt="SVG Image" width="800" height="700">
+<img src="3. Object Diagram.svg" alt="SVG Image" width="800" height="500">
+<img src="4. Sequence diagram.svg" alt="SVG Image" width="800" height="700">
+
+**4. Design principles and patterns**
 
 **Encapsulation**. Encapsulation encompasses the concept of data hiding. It has been achieved through the utilization of access modifiers, private fields, methods as interfaces, and more. This fundamental principle has been applied across all classes within the system.
 
@@ -28,10 +61,3 @@ In this project, I created and documented an object-oriented design for this gam
 **Template method pattern**. The Template Method pattern is used in the Player class, which establishes a template for player actions in Tic Tac Toe. The MakeMove() method serves as the core of the algorithm, outlining the sequence of steps. Concrete subclasses, such as HumanPlayer and ComputerPlayer, implement specific move-making behaviors. While the MakeMove() method in the Player class acts as the template, defining the overarching move-making algorithm, it delegates specific tasks to subclasses. This design fosters code reusability and maintains uniformity in player behaviour across various implementations.
 
 **Singleton pattern**. The code utilizes the Singleton pattern to guarantee the existence of just one instance of the SaveManager class within the entire application. This is accomplished by employing a private constructor, which prohibits direct instantiation of the class, yet permits access to the sole instance via public methods like SaveMove and LoadMoves. This pattern streamlines the management of saving and loading game moves by offering a centralized access point to the singular instance of SaveManager, ensuring consistent and controlled handling of these operations.
-
-**2. Class Responsibility Collaborator (CRC) analysis** 
-
-<img src="2. Class diagram.svg" alt="SVG Image" width="800" height="700">
-<img src="3. Object Diagram.svg" alt="SVG Image" width="800" height="500">
-<img src="4. Sequence diagram.svg" alt="SVG Image" width="800" height="700">
-
