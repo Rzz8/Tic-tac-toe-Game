@@ -1,4 +1,4 @@
-To run this application locally, download all files and in Visual Studio 2022 run TicTacToe.csproj” file. Alternatively, you can use Visual Studio Code.
+To run this application locally, download all files and in Visual Studio 2022 run "TicTacToe.csproj” file. Alternatively, you can use Visual Studio Code.
 
 Tic-tac-toe, noughts and crosses, or Xs and Os is a paper-and-pencil game for two players who take turns marking the spaces in a three-by-three grid with X or O. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner. (https://en.wikipedia.org/wiki/Tic-tac-toe)
 
