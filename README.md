@@ -1,4 +1,4 @@
-To run this application locally, download all files and in Visual Studio type “dotnet build TicTacToe.csproj” to build the project, and then type “dotnet run” to run it. Alternatively, you can use Visual Studio Code.
+To run this application locally, download all files and in Visual Studio 2022 run TicTacToe.csproj” file. Alternatively, you can use Visual Studio Code.
 
 Tic-tac-toe, noughts and crosses, or Xs and Os is a paper-and-pencil game for two players who take turns marking the spaces in a three-by-three grid with X or O. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner. (https://en.wikipedia.org/wiki/Tic-tac-toe)
 
@@ -35,9 +35,11 @@ In this project, I created and documented an object-oriented design for this gam
     
 19.	The program saves the player ID and each move to a local file named “Game Record.json”. However, the current version of the program lacks the capability to load the file for replaying the game.
     
-21.	After the game concludes, the user is prompted to play again by entering '1', or they can choose to exit the game by entering any other key.
+21.	After the game concludes, the user is prompted to play again by entering '1', or they can choose to exit the game by entering any other key. 
 
 **2. Class Responsibility Collaborator (CRC) analysis** 
+
+Class-responsibility-collaboration (CRC) cards are a brainstorming tool used in the design of object-oriented software. CRC cards are frequently employed during the design phase of system and software development to transition use-case descriptions into class diagrams, allowing a smoother transition with a greater overview and permitting developers to implement solutions with low binding and high cohesion. (https://en.wikipedia.org/wiki/Class-responsibility-collaboration_card)
 
 <img src="CRC analysis 1.png" alt="CRC analysis" width="600" height="1000">
 <img src="CRC analysis 2.png" alt="CRC analysis2" width="600" height="300">
